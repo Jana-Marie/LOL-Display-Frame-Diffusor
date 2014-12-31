@@ -2,6 +2,10 @@
 lengh = 70; 
 width = 42;
 height = 6.5;
+
+numberx = 9;
+numbery = 14;
+
 boarders = 1;
 
 led_size = 3;
@@ -34,8 +38,8 @@ cube([2,1,1]);
 */
 }
 union(){
-for(i = [0:8]){
-for(j = [0:13]){
+for(i = [0:numberx - 1]){
+for(j = [0:numbery - 1]){
 translate([(i*(led_size+spacingx))+boarders,(j*(led_size+spacingy))+boarders,-1])
 cube([led_size*1.025,led_size*1.025,10]);
 }
