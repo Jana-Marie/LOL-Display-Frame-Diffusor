@@ -12,3 +12,4 @@ Print the frame in black and the diffusor in white
 
 <a target="_blank"><img src="http://img5.fotos-hochladen.net/uploads/mtp8260a000ev6qybw1at.jpg" border="0"></a>
 
+More Informations: http://www.instructables.com/id/How-to-make-a-diffusor-for-your-LED-Matrix/
